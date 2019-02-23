@@ -82,3 +82,46 @@ daredevil = Bait.create!(
   category: 'Spoon',
   image: 'daredevil.png'
 )
+
+#
+# Tackle Box Items
+#
+
+TackleBoxItem.create!([
+  {
+    bait: marabou_muddler,
+    user: nicole
+  },
+  {
+    bait: bucktail,
+    user: nicole
+  },
+  {
+    bait: yummy_gummy,
+    user: nicole
+  },
+  {
+    bait: fire_tiger,
+    user: nicole
+  },
+  {
+    bait: rooster_tail,
+    user: nicole
+  },
+  {
+    bait: marabou_muddler,
+    user: bassmaster
+  },
+  {
+    bait: bucktail,
+    user: bassmaster
+  },
+  {
+    bait: strike_king,
+    user: bassmaster
+  },
+  {
+    bait: mr_mustache,
+    user: bassmaster
+  },
+])
