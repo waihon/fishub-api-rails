@@ -26,5 +26,10 @@ module FishubApiRails
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
+
+    # Set `--no-test-framework` as a default optin when running a generator.
+    config.generators do |g|
+      g.test_framework false
+    end
   end
 end
