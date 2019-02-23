@@ -125,3 +125,106 @@ TackleBoxItem.create!([
     user: bassmaster
   },
 ])
+
+#
+# Catches
+#
+
+Catch.create!([
+  {
+    species: 'Walleye',
+    weight: 4.0,
+    length: 21.0,
+    created_at: 2.days.ago,
+    bait: rooster_tail,
+    user: nicole
+  },
+  {
+    species: 'Brown Trout',
+    weight: 5.25,
+    length: 22.5,
+    created_at: 3.days.ago,
+    bait: rooster_tail,
+    user: nicole
+  },
+  {
+    species: 'Largemouth Bass',
+    weight: 4.25,
+    length: 18.5,
+    created_at: 3.days.ago,
+    bait: yummy_gummy,
+    user: nicole
+  },
+  {
+    species: "Rainbow Trout",
+    weight: 3.5,
+    length: 18.5,
+    created_at: 4.days.ago,
+    bait: rooster_tail,
+    user: nicole
+  },
+  {
+    species: "Walleye",
+    weight: 4.5,
+    length: 22.5,
+    created_at: 1.days.ago,
+    bait: fire_tiger,
+    user: nicole
+  },
+  {
+    species: 'Walleye',
+    weight: 3.0,
+    length: 18.0,
+    created_at: 3.days.ago,
+    bait: fire_tiger,
+    user: nicole
+  },
+  {
+    species: 'Lake Trout',
+    weight: 5.5,
+    length: 24.0,
+    created_at: 5.days.ago,
+    bait: fire_tiger,
+    user: nicole
+  },
+  {
+    species: 'Walleye',
+    weight: 3.5,
+    length: 19.0,
+    created_at: 7.days.ago,
+    bait: fire_tiger,
+    user: nicole
+  },
+    {
+    species: "Largemouth Bass",
+    weight: 3.0,
+    length: 18.0,
+    created_at: 4.days.ago,
+    bait: mr_mustache,
+    user: bassmaster
+  },
+  {
+    species: 'Rainbow Trout',
+    weight: 2.5,
+    length: 16.5,
+    created_at: 3.days.ago,
+    bait: strike_king,
+    user: bassmaster
+  },
+  {
+    species: 'Brown Trout',
+    weight: 4.25,
+    length: 22.0,
+    created_at: 6.days.ago,
+    bait: marabou_muddler,
+    user: bassmaster
+  },
+  {
+    species: 'Smallmouth Bass',
+    weight: 3.25,
+    length: 14.0,
+    created_at: 8.days.ago,
+    bait: bucktail,
+    user: bassmaster
+  },
+])
