@@ -24,3 +24,61 @@ fishyfishy = User.create!(
   username: 'fishyfishy',
   password: 'secret'
 )
+
+#
+# Baits
+#
+
+fat_rap = Bait.create!(
+  name: 'Fat Rap',
+  category: 'Crankbait',
+  image: 'fat-rap.png'
+)
+
+yummy_gummy = Bait.create!(
+  name: 'Yummy Gummy',
+  category: 'Softbait',
+  image: 'yummy-gummy.png'
+)
+
+fire_tiger = Bait.create!(
+  name: 'Fire Tiger',
+  category: 'Spinner',
+  image: 'fire-tiger.png'
+)
+
+mr_mustache = Bait.create!(
+  name: 'Mr. Mustache',
+  category: 'Popper',
+  image: 'mr-mustache.png'
+)
+
+strike_king = Bait.create!(
+  name: 'Strike King',
+  category: 'Crankbait',
+  image: 'strike-king.png'
+)
+
+rooster_tail = Bait.create!(
+  name: 'Rooster Tail',
+  category: 'Spinner',
+  image: 'rooster-tail.png'
+)
+
+marabou_muddler = Bait.create!(
+  name: 'Marabou Muddler',
+  category: 'Fly',
+  image: 'marabou-muddler.png'
+)
+
+bucktail = Bait.create!(
+  name: 'Bucktail',
+  category: 'Jig',
+  image: 'bucktail.png'
+)
+
+daredevil = Bait.create!(
+  name: 'Daredevil',
+  category: 'Spoon',
+  image: 'daredevil.png'
+)
